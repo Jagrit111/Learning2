@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="formBox">
+        <form method="POST"  class="form">
+            <tr>
+                <th><label for="name">Name</label></th> <br>
+                <td><input type="text" placeholder="Enter your Name" id="name" name="name"></td><br>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label> </th> <br>
+                <td><input type="email" placeholder="Enter your Email" name ="email" id="email"></td><br>
+            </tr>
+            <tr>
+                <th><label for="age">Age</label> </th> <br>
+                <td><input type="number" min="0" max="50" placeholder="Age" id="age" name="age" ></td><br>
+            </tr>
+            <tr>
+                <th><label for="select"> Which option best describes your current role?</label></th> <br>
+                <td><select id="select">
+                        <option name="role">Student</option>
+                        <option name="role">Full Time Job</option>
+                        <option name="role">Part Time Job</option>
+                        <option name="role">Prefer not to say</option>
+                        <option name="role">Other</option>
+                    </select></td><br>
+            </tr>
+            <tr>
+                <th><label for="recommend"> Would you recommend freeCodeCamp to a friend?</th> </label> <br>
+                <td><input type="radio" name="definitely_recommend" class="inlineInput">Definitely</td><br>
+                <td><input type="radio" name="maybe_recommend"
+                class="inlineInput">Maybe</td><br>
+                <td><input type="radio" name="not_sure_recommend"
+                class="inlineInput">Not sure</td><br>
+            </tr>
+
+            <tr>
+                <label for="improved">What you like to see improved</label> <br>
+                <input type="checkbox" name="front_end_improved" class="inlineInput" id="front-end">Front-end Projects <br>
+                <input type="checkbox" name="back_end_improved" class="inlineInput" id="back-end">Back-end Projects <br>
+                <input type="checkbox" name="data_visual_improved" class="inlineInput" id="data-visual">Data Visualization <br>
+                <input type="checkbox" name="challenges_improved" class="inlineInput" id="challenge">Challenges <br>
+                <input type="checkbox" name="opensource_improved" class="inlineInput" id="open-source">Open-Source Community<br>
+                <input type="checkbox" name="git_improved" class="inlineInput" id="git-help">Gitter help rooms<br>
+                <input type="checkbox" name="video_improved" class="inlineInput" id="video">Video<br>
+                <input type="checkbox" name="citymeet_improved" class="inlineInput" id="city-meet">City-Meetup<br>
+                <input type="checkbox" name="wiki_improved" class="inlineInput" id="wiki">Wiki<br>
+                <input type="checkbox" name="forum_improved" class="inlineInput" id="forum">Forum<br>
+                <input type="checkbox" name="course_improved" class="inlineInput" id="add-course">Additional Courses<br>
+            </tr>
+
+            <tr>
+                <th><label for="comment">Any comments or suggestions?</label></th><br>
+                <textarea id="comment" name="comment" placeholder="Type your comments" ></textarea>
+            </tr>
+
+            <input id="submit" type="submit" value="Submit">
+            
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body{
+    
+    background-color: white;
+}
+.formBox{
+    margin: auto;
+    width: 55%;
+    border: 1px solid rgb(152, 171, 226);
+    border-radius: 10px;
+    background-color: rgb(166, 185, 212);
+}
+.form{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+.inlineInput{
+    display: inline;
+    width: 8%;
+}
+input,select{
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+}
+label{
+    margin-top: 15px;
+    display: inline-block;
+}
+textarea{
+    width: 480px; 
+    height: 170px; 
+    resize: none;
+    font-size: 15px;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: rgb(131, 211, 131);
+}
+
